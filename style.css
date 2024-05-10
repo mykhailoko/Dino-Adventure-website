@@ -1,16 +1,15 @@
 body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
     background-image: url(static/images/headerbg.png);
     background-size: cover;
-    background-position: center 11%; 
     margin: 0;
     padding: 0;
     position: relative;
-}
-
-.content {
-    text-align: center;
-    padding: 20px;
-    color: white;
+    padding-bottom: 703px;
 }
 
 .logo {
@@ -48,8 +47,124 @@ body {
 }
 
 .arrow {
-    position: fixed; 
-    left: 50%; 
-    bottom: 20px; 
-    transform: translateX(-50%); 
+    position: absolute;
+    left: 48%; 
+    bottom: 25px; 
+}
+
+.download {
+    background-image: url(static/images/yellowbg.png);
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.downloadtitle {
+    margin: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    padding-top: 60px;
+}
+
+.laptop-image {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.linux-image {
+    position: relative;
+    margin-left: 150px;
+    margin-bottom: 45px;
+}
+
+.windows-image {
+    margin-left: 80px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+.macos-image {
+    margin-bottom: 100px;
+}
+
+.phone-image {
+    margin-top: 15px;
+    margin-left: 70px;
+    padding-bottom: 47px;
+}
+
+.phone-image1 {
+    margin-top: 55px;
+    margin-left: 70px;
+    padding-bottom: 47px;
+}
+
+.android-image {
+    margin-left: 150px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+
+.iphone-image {
+    margin-left: 100px;
+    margin-bottom: 90px;
+}
+
+.laptop-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: black;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 550px;
+}
+
+#linux {
+    margin-top: -410px;
+    margin-left: 100px;
+    color: black;
+    text-decoration: none;
+}
+
+#windows {
+    margin-top: -410px;
+    margin-left: 80px;
+    color: black;
+    text-decoration: none;
+}
+
+#macos {
+    margin-top: -410px;
+    margin-left: 90px;
+    color: black;
+    text-decoration: none;
+}
+
+.phone-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 535px;
+    text-decoration: none;
+}
+
+#android {
+    margin-top: -120px;
+    margin-left: 100px;
+    color: black;
+    text-decoration: none;
+}
+
+#iphone {
+    margin-top: -120px;
+    margin-left: 95px;
+    color: black;
+    text-decoration: none;
 }
