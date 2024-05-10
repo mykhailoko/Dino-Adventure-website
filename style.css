@@ -1,0 +1,55 @@
+body {
+    background-image: url(static/images/headerbg.png);
+    background-size: cover;
+    background-position: center 11%; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.navigation {
+    position: absolute;
+    top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; 
+    right: 40px;
+}
+
+.navigation a {
+    color: black;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px; 
+}
+
+.lang {
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.developers {
+    margin-right: 10px; 
+}
+
+.arrow {
+    position: fixed; 
+    left: 50%; 
+    bottom: 20px; 
+    transform: translateX(-50%); 
+}
