@@ -42,7 +42,7 @@ body {
     margin-right: 10px;
 }
 
-.developers {
+.developersmenu {
     margin-right: 10px; 
 }
 
@@ -251,4 +251,42 @@ body {
 
 #crossplatform {
     margin-left: -65px;
+}
+
+.developers {
+    background-image: url(static/images/yellowbg.png);
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.developerstitle {
+    margin: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    padding-top: 60px;
+}
+
+.images {
+    margin-top: 50px;
+    margin-left: 185px;
+}
+
+#vladik {
+    margin-left: 220px;
+}
+
+.names {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: -15px;
+}
+
+#vladikname {
+    margin-left: 285px;
 }
