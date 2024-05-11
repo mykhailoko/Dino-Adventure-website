@@ -68,48 +68,48 @@ body {
     padding-top: 60px;
 }
 
-.laptop-image {
-    margin-top: 30px;
-    margin-left: 70px;
+.laptop {
+    margin-top: 60px;
+    margin-left: 200px;
 }
 
 .linux-image {
     position: relative;
-    margin-left: 150px;
-    margin-bottom: 45px;
+    margin-left: 190px;
+    margin-bottom: 25px;
 }
 
 .windows-image {
-    margin-left: 80px;
-    margin-right: 70px;
-    margin-bottom: 50px;
+    margin-left: 90px;
+    margin-bottom: 30px;
 }
 
 .macos-image {
-    margin-bottom: 100px;
+    margin-left: 90px;
+    margin-bottom: 75px;
+}
+
+.phone {
+    margin-top: 35px;
+    margin-left: 140px;
+    padding-bottom: 55px;
 }
 
 .phone-image {
-    margin-top: 15px;
-    margin-left: 70px;
-    padding-bottom: 47px;
-}
-
-.phone-image1 {
     margin-top: 55px;
     margin-left: 70px;
     padding-bottom: 47px;
 }
 
 .android-image {
-    margin-left: 150px;
+    margin-left: 190px;
     margin-right: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .iphone-image {
     margin-left: 100px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .laptop-text {
@@ -120,26 +120,26 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 550px;
+    margin-left: 570px;
 }
 
 #linux {
-    margin-top: -410px;
+    margin-top: -10px;
     margin-left: 100px;
     color: black;
     text-decoration: none;
 }
 
 #windows {
-    margin-top: -410px;
-    margin-left: 80px;
+    margin-top: -10px;
+    margin-left: 70px;
     color: black;
     text-decoration: none;
 }
 
 #macos {
-    margin-top: -410px;
-    margin-left: 90px;
+    margin-top: -10px;
+    margin-left: 70px;
     color: black;
     text-decoration: none;
 }
@@ -151,20 +151,104 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 535px;
+    margin-left: 562px;
     text-decoration: none;
 }
 
 #android {
-    margin-top: -120px;
+    margin-top: -95px;
     margin-left: 100px;
     color: black;
     text-decoration: none;
 }
 
 #iphone {
-    margin-top: -120px;
+    margin-top: -95px;
     margin-left: 95px;
     color: black;
     text-decoration: none;
+}
+
+.aboutus {
+    background-image: url(static/images/blackbg.png);
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.features {
+    display: flex;
+}
+
+.aboutusmaintitle {
+    margin: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffb82c;
+    font-size: 45px;
+    padding-top: 60px;
+}
+
+.greendino {
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+.aboutustitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffb82c;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.featurespart{
+    margin-top: 150px;
+    margin-left: 230px;
+}
+
+.aboutustext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffb82c;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.featureicons {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -60px;
+}
+
+#game {
+    margin-top: -75px;
+}
+
+#friends {
+    margin-left: -55px;
+}
+
+.developing {
+    display: flex;
+}
+
+.reddino {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.developpart{
+    margin-top: 130px;
+    margin-left: 300px;
+}
+
+.developicons {
+    position: absolute;
+    margin-top: -73px;
+    margin-left: -60px;
+}
+
+#crossplatform {
+    margin-left: -65px;
 }
