@@ -373,12 +373,12 @@ body {
 }
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
     body {
         margin: 0px;
         padding: 0px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 360px;
+        width: 100%;
     }
 
     /* Шапка */
