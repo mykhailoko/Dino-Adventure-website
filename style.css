@@ -373,7 +373,7 @@ body {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     body {
         margin: 0px;
         padding: 0px;
