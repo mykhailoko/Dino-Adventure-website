@@ -206,6 +206,7 @@ body {
 .featurespart{
     margin-top: 150px;
     margin-left: 230px;
+    width: 420px;
 }
 
 .aboutustext {
@@ -241,6 +242,7 @@ body {
 .developpart{
     margin-top: 130px;
     margin-left: 300px;
+    width: 420px;
 }
 
 .developicons {
@@ -345,7 +347,6 @@ body {
     margin-left: 45px;
 }
 
-
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -370,6 +371,27 @@ body {
 .arrow img:hover {
     transform: scale(1.2); /* Увеличивает размер логотипа на 20% */
     transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse-button {
+    animation: pulse 1.5s infinite;
+}
+
+.animate-img {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Добавляем плавный переход для свойства opacity */
 }
 
 
@@ -514,8 +536,7 @@ body {
         position: relative;
     }
 
-    .p
-    hone-text {
+    .phone-text {
         font-size: 20px; /* Уменьшаем размер текста */
         margin-top: 10px; /* Увеличиваем отступ сверху */
     }
@@ -601,7 +622,6 @@ body {
         color: black;
     }
 
-    /* Подвал */
     .footer {
         background-image: url(static/images/footerbg.png);
         background-size: cover;
