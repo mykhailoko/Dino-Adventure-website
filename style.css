@@ -56,7 +56,8 @@ body {
     background-image: url(static/images/yellowbg.png);
     background-size: cover; 
     margin: 0;
-    padding: 0;
+    padding-top: 80px;
+    padding-bottom: 140px;
     position: relative;
 }
 
@@ -65,108 +66,108 @@ body {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 45px;
-    padding-top: 60px;
 }
 
 .laptop {
     margin-top: 60px;
-    margin-left: 200px;
-}
-
-.linux-image {
-    position: relative;
-    margin-left: 190px;
-    margin-bottom: 25px;
-}
-
-.windows-image {
-    margin-left: 90px;
-    margin-bottom: 30px;
-}
-
-.macos-image {
-    margin-left: 90px;
-    margin-bottom: 75px;
-}
-
-.phone {
-    margin-top: 35px;
-    margin-left: 140px;
-    padding-bottom: 55px;
-}
-
-.phone-image {
-    margin-top: 55px;
-    margin-left: 70px;
-    padding-bottom: 47px;
-}
-
-.android-image {
-    margin-left: 190px;
-    margin-right: 10px;
-    margin-bottom: 50px;
-}
-
-.iphone-image {
-    margin-left: 100px;
-    margin-bottom: 50px;
-}
-
-.laptop-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 28px;
-    color: black;
-    position: absolute;
     display: flex;
-    margin: 0;
-    padding: 0;
-    margin-left: 570px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 120px;
+}
+
+.laptop-items {
+    padding-top: 20px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+#laptop-image {
+    padding-top: 30px;
+    padding-left: 140px;
+    padding-right: 100px;
+}
+
+#windows-image {
+    padding-top: 10px;
+}
+
+#macos-image {
+    padding-top: 45px;
 }
 
 #linux {
-    margin-top: -10px;
-    margin-left: 100px;
-    color: black;
+    padding-top: 150px;
     text-decoration: none;
 }
 
 #windows {
-    margin-top: -10px;
-    margin-left: 70px;
-    color: black;
+    padding-top: 150px;
+    margin-left: -10px;
     text-decoration: none;
 }
 
 #macos {
-    margin-top: -10px;
-    margin-left: 70px;
-    color: black;
+    padding-top: 150px;
     text-decoration: none;
 }
 
-.phone-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 28px;
-    position: absolute;
+.phone {
+    margin-top: 90px;
     display: flex;
-    margin: 0;
-    padding: 0;
-    margin-left: 562px;
-    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    padding-left: 210px;
+    padding-right: 210px;
+}
+
+.phone-items {
+    padding-top: 20px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+#phone-items-first {
+    margin-left: 240px;
+}
+
+#phone-items-second {
+    margin-left: -30px;
+}
+
+.phone-image {
+    padding-top: 30px;
 }
 
 #android {
-    margin-top: -95px;
-    margin-left: 100px;
-    color: black;
+    padding-top: 175px;
     text-decoration: none;
 }
 
 #iphone {
-    margin-top: -95px;
-    margin-left: 95px;
-    color: black;
+    padding-top: 175px;
     text-decoration: none;
+}
+
+#android-image {
+    padding-top: 10px;
+}
+
+.pulse-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: black;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .aboutus {
@@ -363,13 +364,13 @@ body {
   }
 
 .yellowlogo img:hover {
-    transform: scale(1.2); /* Увеличивает размер логотипа на 20% */
+    transform: scale(1.2);
     transition: transform 0.3s ease, opacity 0.3s ease;
 
 }
 
 .arrow img:hover {
-    transform: scale(1.2); /* Увеличивает размер логотипа на 20% */
+    transform: scale(1.2);
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
@@ -391,269 +392,106 @@ body {
 
 .animate-img {
     opacity: 0;
-    transition: opacity 0.5s ease; /* Добавляем плавный переход для свойства opacity */
+    transition: opacity 0.5s ease;
 }
 
 
-@media only screen and (max-width: 480px) {
-    body {
-        margin: 0px;
-        padding: 0px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 480px;
-    }
-
-    /* Шапка */
-    .header {
-        background-image: url(static/images/headerbg.png);
-        background-size: cover;
-        padding-bottom: 240px; /* Уменьшаем отступ снизу */
-        position: relative;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .lang {
-        display: none;
-    }
-
-    .navigation {
-        position: absolute;
-        top: 30px; /* Перемещаем навигацию выше */
-        right: 45px; /* Редактируем расположение */
-        font-weight: bold; 
-    }
-
-    .navigation a {
-        color: black;
-        text-decoration: none;
-        font-size: 16px; /* Уменьшаем размер шрифта */
-        margin-left: 20px; /* Уменьшаем отступ между ссылками */
-        
-    }
-
-    
-
-    /* Секция загрузки */
+@media only screen and (max-width: 900px) {
     .download {
-        background-image: url(static/images/yellowbg.png);
-        background-size: cover;
-        padding-bottom: 0px;
-        position: relative;
+        padding-top: 30%;
+        padding-bottom: 35%;
     }
 
     .downloadtitle {
+        font-size: 260%;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
-        font-size: 30px; /* Уменьшаем размер заголовка */
-        padding-top: 30px; /* Уменьшаем верхний отступ */
     }
 
-    /* Секция устройств */
-    .download {
-        padding-bottom: 60px;
-    }
     .laptop {
-        margin-left: 100px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        flex-direction: column;
+        display: grid;
+        grid-gap: 270px;
     }
 
-    .phone {
-        margin-left: 40px;
-        margin-top: 80px;
-    }
-
-    .laptop-text {
-        margin-left: 110px; /* Увеличиваем отступ сверху */
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 28px;
-        color: black;
-    }
-    
-    #linux {
-        margin-left: 63px;
-        margin-top: -460px;
-    }
-
-    #windows {
-        margin-left: -140px;
+    .laptop-items {
         margin-top: -200px;
     }
 
-    #macos {
-        margin-left: -160px;
-        margin-top: 20px;
-    }
-
-    .linux-image {
-        margin-left: 80px;
+    .phone {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: auto;
         margin-right: auto;
-        margin-bottom: 40px; /* Уменьшаем отступ снизу */
-        margin-top: 60px;
+        justify-content: center;
+        flex-direction: column;
+        display: grid;
+        grid-gap: 270px;
     }
 
-    .windows-image {
-        margin-left: 85px;
-        margin-right: auto;
-        margin-bottom: 170px; /* Уменьшаем отступ снизу */
-        margin-top: 90px;
+    .phone-items {
+        margin-top: -200px;
+        padding-top: 0px;
     }
 
-    .macos-image {
-        margin-left: 65px;
-        margin-right: auto;
-        margin-bottom: 20px; /* Уменьшаем отступ снизу */
-    }
-
-    .android-image{
-        margin-left: 130px;
-        margin-right: auto;
-        margin-bottom: 120px; /* Уменьшаем отступ снизу */
-    }
-
-    .iphone-image {
-        margin-left: 130px;
-        margin-right: auto;
-        margin-bottom: 20px; /* Уменьшаем отступ снизу */
-    }
-
-    #android {
-        margin-top: -330px;
-        margin-left: -400px;
-    }
-
-    #iphone {
-        margin-top: -50px;
-        margin-left: -150px;
-        margin-bottom: 500px;
-    }
-
-    /* Секция "О нас" */
-    .aboutus {
-        background-image: url(static/images/blackbg.png);
-        background-size: cover;
-        padding-bottom: 70px; /* Уменьшаем отступ снизу */
-        position: relative;
-    }
-
-    .phone-text {
-        font-size: 20px; /* Уменьшаем размер текста */
-        margin-top: 10px; /* Увеличиваем отступ сверху */
-    }
-
-    .aboutusmaintitle {
-        font-size: 30px; /* Уменьшаем размер заголовка */
-        padding-top: 50px; /* Уменьшаем верхний отступ */
-        color: #ffb82c; /* Изменяем цвет текста */
-    }
-
-    .greendino {
-        margin-top: 40px;
-        margin-left: 60px;
-        width: 330px;
-        height: 380px;
-    }
-
-    .featurespart {
-        margin-left: -260px;
-        margin-top: 480px;
-    }
-
-    .reddino {
-        margin-top: 40px;
-        margin-left: -390px;
-        width: 330px;
-        height: 360px;
+    #laptop-image {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     
-    .developpart {
-        margin-left: 120px;
-        margin-top: 440px;
+    #windows-image {
+        padding-top: 10px;
     }
-
-    .aboutustitle {
-        font-size: 20px; /* Уменьшаем размер заголовка */
-        margin-bottom: 20px; /* Уменьшаем отступ снизу */
+    
+    #macos-image {
+        padding-top: 50px;
     }
-
-    .aboutustext {
-        font-size: 16px; /* Уменьшаем размер текста */
-        line-height: 1.3; /* Увеличиваем межстрочный интервал */
+    
+    #linux {
+        padding-top: 150px;
+        text-decoration: none;
     }
-    /* Секция "Разработчики" */
-    .developers {
-        background-image: url(static/images/yellowbg.png);
-        background-size: cover;
-        padding-bottom: 40px; /* Уменьшаем отступ снизу */
-        position: relative;
+    
+    #windows {
+        padding-top: 150px;
+        text-decoration: none;
     }
-
-    .developerstitle {
-        font-size: 30px; /* Уменьшаем размер заголовка */
-        padding-top: 60px; /* Уменьшаем верхний отступ */
+    
+    #macos {
+        padding-top: 150px;
+        text-decoration: none;
     }
-
-    #michael {
-        margin-left: -150px;
-        height: 400px;
-        width: 400px;
+    
+    #phone-items-first {
+        margin-left: auto;
     }
-
-    #michaelname {
-        margin-left: -110px;
-        margin-top: -530px;
-        font-size: 28px; /* Уменьшаем размер текста */
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: black;
+    
+    #phone-items-second {
+        margin-left: auto;
     }
-
-    #vladik{
-        margin-left: -150px;
-        margin-top: 170px;
-        height: 400px;
-        width: 400px;
+    
+    .phone-image {
+        padding-top: 0px;
     }
-
-    #vladikname {
-        margin-left: -250px;
-        margin-top: 45px;
-        font-size: 28px; /* Уменьшаем размер текста */
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: black;
+    
+    #android {
+        padding-top: 175px;
+        text-decoration: none;
     }
-
-    .footer {
-        background-image: url(static/images/footerbg.png);
-        background-size: cover;
-        padding-bottom: 0px;
-        position: relative;
-        height: 200px;
+    
+    #iphone {
+        padding-top: 175px;
+        text-decoration: none;
     }
-
-    .footerword {
-        font-size: 16px; /* Уменьшаем размер текста */
-        margin-left: 15px;
-        margin-top: 5px;
-        letter-spacing: 1px; /* Уменьшаем расстояние между буквами */
-    }
-
-    .yellowlogo{
-        width: 10px;
-        height: 10px;
-    }
-
-    .telegram{
-        margin-top: 50px;
-        margin-left: 105px;
-    }
-
-    .github {
-        margin-top: 50px; /* Уменьшаем отступ сверху */
-        margin-left: 30px; /* Увеличиваем отступ слева */
-    }
-
-    .footermenu {
-        margin-top: 130px; /* Уменьшаем отступ сверху */
-        margin-left: -440px; /* Увеличиваем отступ слева */
+    
+    #android-image {
+        padding-top: 0px;
     }
 }
