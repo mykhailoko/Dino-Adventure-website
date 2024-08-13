@@ -245,7 +245,7 @@ body {
 
 .developpart{
     width: 420px;
-    padding-right: 150px;
+    padding-right: 130px;
     margin-top: 40px;
 }
 
@@ -604,9 +604,13 @@ body {
         margin-bottom: 20px;
     }
 
+    .developerstitle {
+        font-size: 240%;
+    }
+
     .developers {
-        padding-top: 20%;
-        padding-bottom: 20%;
+        padding-top: 30%;
+        padding-bottom: 25%;
     }
 
     .maindevpart {
@@ -622,11 +626,14 @@ body {
         margin-top: 60px;
     }
 
-    .header {
-        display: none;
+    .images {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
     }
 
-    .footer {
-        display: none;
+    .names {
+        font-size: 200%;
     }
 }
