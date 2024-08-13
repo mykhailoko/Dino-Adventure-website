@@ -176,11 +176,16 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    padding-bottom: 70px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .features {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 80px;
 }
 
 .aboutusmaintitle {
@@ -189,24 +194,16 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffb82c;
     font-size: 45px;
-    padding-top: 60px;
-}
-
-.greendino {
-    margin-left: 180px;
-    margin-top: 80px;
 }
 
 .aboutustitle {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffb82c;
     font-size: 30px;
-    margin-bottom: 30px;
 }
 
 .featurespart{
-    margin-top: 150px;
-    margin-left: 230px;
+    margin-top: 50px;
     width: 420px;
 }
 
@@ -218,42 +215,38 @@ body {
 }
 
 .featureicons {
-    position: absolute;
-    margin-top: -80px;
-    margin-left: -60px;
+    margin-top: 140px;
+    padding-right: 15px;
+    padding-left: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-#game {
-    margin-top: -75px;
-}
-
-#friends {
-    margin-left: -55px;
+.greendino {
+    margin-left: -40px;
 }
 
 .developing {
     display: flex;
-}
-
-.reddino {
-    margin-left: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     margin-top: 80px;
 }
 
-.developpart{
-    margin-top: 130px;
-    margin-left: 300px;
-    width: 420px;
-}
-
 .developicons {
-    position: absolute;
-    margin-top: -73px;
-    margin-left: -60px;
+    margin-top: 140px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-#crossplatform {
-    margin-left: -65px;
+.developpart{
+    width: 420px;
+    padding-right: 150px;
+    margin-top: 40px;
 }
 
 .developers {
@@ -261,8 +254,8 @@ body {
     background-size: cover; 
     margin: 0;
     padding: 0;
-    position: relative;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .developerstitle {
@@ -270,28 +263,26 @@ body {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 45px;
-    padding-top: 60px;
 }
 
-.images {
-    margin-top: 50px;
-    margin-left: 185px;
+.maindevpart {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
 }
 
-#vladik {
-    margin-left: 220px;
+.michael {
+    padding-right: 250px;
+    margin-left: -50px;
 }
 
 .names {
-    display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    margin-left: 250px;
-    margin-top: -15px;
-}
-
-#vladikname {
-    margin-left: 285px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .footer {
@@ -346,6 +337,10 @@ body {
 
 #developersfooter {
     margin-left: 45px;
+}
+
+#reddino {
+    display: none;
 }
 
 @keyframes fadeIn {
@@ -493,5 +488,145 @@ body {
     
     #android-image {
         padding-top: 0px;
+    }
+
+    .aboutus {
+        padding-top: 25%;
+        padding-bottom: 30%;
+    }
+
+    .aboutusmaintitle {
+        font-size: 260%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .features {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .greendino {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        margin-top: 0px;
+        width: 60%;
+        height: 60%;
+    }
+
+    .developing {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    #reddino {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        margin-top: 0px;
+        width: 60%;
+        height: 60%;
+    }
+
+    .reddino {
+        display: none;
+    }
+    
+    .featurespart {
+        margin-top: 5%;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .developpart {
+        margin-top: 5%;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .aboutustext {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffb82c;
+        font-size: 110%;
+        line-height: 1.5;
+    }
+    
+    /*
+    .featureicons {
+        width: 5%;
+        margin-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .developicons {
+        width: 5%;
+        height: 5%;
+        margin-top: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    */
+
+    .featureicons {
+        display: none;
+    }
+
+    .developicons {
+        display: none;
+    }
+
+    .aboutustitle {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffb82c;
+        font-size: 160%;
+        margin-bottom: 20px;
+    }
+
+    .developers {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .maindevpart {
+        flex-direction: column;
+    }
+
+    .michael {
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .vladik {
+        margin-top: 60px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .footer {
+        display: none;
     }
 }
