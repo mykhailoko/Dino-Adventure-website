@@ -688,7 +688,7 @@ body {
 
     .header {
         background-image: url(static/images/headerbgphone.png);
-        padding-bottom: 110%;
+        padding-bottom: 90%;
     }
 
     .arrow {
@@ -729,6 +729,6 @@ body {
         font-size: 300%;
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 170px;
+        padding-top: 35%;
     }
 }
